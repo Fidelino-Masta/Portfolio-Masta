@@ -1,0 +1,127 @@
+section {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  padding: 40px 100px;
+  box-shadow: 4px 0 18px rgba(0, 0, 0, 0.20);
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  gap: 96px;
+}
+
+ul li {
+  list-style-type: none;
+  font-size: 18px;
+  transition: .3s;
+}
+
+ul li:hover {
+  color: #4B88FF;
+}
+
+
+//
+main {
+  position: relative;
+  top: 150px;
+}
+
+.social-network {
+  width: 60px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  border-radius: 10px;
+  padding: 16px 0;
+}
+
+.btn-network {
+  display: flex;
+  height: 50px;
+  padding: 0 15px;
+  border-radius: 10px;
+  display: none;
+  align-items: center;
+  gap: 12px;
+  margin-left: 265px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.24);
+  transition: .3s;
+}
+
+.btn-network p {
+  color: #3d3d3d;
+}
+
+.btn-google {
+  background: #FFE2D9;
+}
+
+.social-network img {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-google:hover + .btn-network {
+  display: flex;
+}
+
+.icon-google:hover {
+  display: none;
+}
+
+
+.text-engineer {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.text-engineer-min {
+  text-align: center;
+  margin-top: 4px;
+  color: #3d3d3d;
+}
+
+.image-welcome {
+  width: 500px;
+  height: 360px;
+  margin: 48px auto;
+  background-image: url(/assets/images/image-wlcome.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-contact {
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  background: #4B88FF;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
